@@ -10,3 +10,5 @@ wheels/
 .venv
 trip_planner_env
 
+.env
+
