@@ -1,19 +1,19 @@
-langchain
-langchain-community
-langchain-experimental
-fastapi
-python-dotenv
-streamlit
-uvicorn
+langchain=0.3.27
+langchain-community=0.3.29
+langchain-experimental=0.3.4
+fastapi=0.116.1
+python-dotenv=1.1.1
+streamlit=1.49.1
+uvicorn=0.35.0
 pydantic
 httpx
 requests
 langchain_google_community
-langchain_tavily
-langchain_groq
-langchain_openai
-langgraph
-langchain-google-community[places]
+langchain_tavily=0.2.11
+langchain_groq=0.3.7
+langchain_openai=0.3.32
+langgraph=0.6.6
+langchain-google-community[places]=2.0.7
 
 
 -e .
