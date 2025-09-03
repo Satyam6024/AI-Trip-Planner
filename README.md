@@ -61,8 +61,12 @@ uv pip sync requirements.txt
 
 ```bash
 # Finally run the following command
-python app.py
+streamlit run streamlit_app.py
 ```
+
+#### Open a new terminal and activate the same environment and run:
+```bash
+uvicorn main:app --reload --port 8000
 
 Now,
 ```bash
